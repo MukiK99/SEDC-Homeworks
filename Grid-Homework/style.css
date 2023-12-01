@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid {
+    height: 120vh;
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 1.5fr 1.5fr;
+    grid-template-areas:
+        'header header'
+        'navbar navbar'
+        'sidebar content'
+        'sidebar content'
+        'footer footer'
+    ;
+    background-image: url('./assets/Background.webp');
+}
+
+.item {
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    border-bottom: 1px dashed gray;
+    
+}
+.header h1 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+    
+}
+h1:hover {
+    letter-spacing: 7px;
+}
+.nav {
+    grid-area: navbar;
+    background: rgba(255, 255, 255, 0.2);
+
+
+    
+    
+}
+.nav ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgba(220, 12, 12, 0.8);
+    list-style-type: none;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-size: 20px;
+    
+}
+.nav a:hover {
+    font-weight: bolder;
+    font-style: italic;
+} 
+#search {
+    padding: 5px;
+    border: 2px solid rgba(220, 12, 12, 0.8);
+    border-radius: 20px;
+}
+#navButton {
+    padding: 5px;
+    border: 2px solid rgba(220, 12, 12, 0.8);
+    border-radius: 5px;
+    width: 4vw;
+}
+#navButton:hover {
+
+    color: red;
+    font-weight: bold;
+}
+
+main {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+
+
+}
+#topRecipe {
+
+    height: 100%;
+    width: 60%;
+    padding: 2vw;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    overflow-y: scroll;
+
+}
+h2 {
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+
+}
+.ingredients {
+
+    width: 100%;
+    
+
+    
+}
+.method {
+    width: 100%;
+    
+}
+
+ .ingredients h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.ingredients p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+}
+.method h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.method p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+
+aside {
+    grid-area: sidebar;
+
+}
+#form input {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 30vw;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(218, 17, 17, 0.5);
+    border-radius: 5px;
+    
+
+}
+::placeholder {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#register {
+padding: 10px 50px;
+border-radius: 5px;
+background: rgba(255, 255, 255, 0.4);
+font-weight: bold;
+margin-left: 8vw;
+font-size: 20px;
+
+}
+#register:hover {
+    background-color: black;
+    color: white;
+}
+
+
+#footer {
+    padding: 0;
+    grid-area: footer;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
