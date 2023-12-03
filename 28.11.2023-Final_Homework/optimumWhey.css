@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* upper part of page-start */
+
+header {
+    display: flex;
+}
+
+.left-side {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(67, 65, 65);
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 15px;
+    text-transform: uppercase;
+
+}
+
+.left-side>* {
+    padding: 10px;
+}
+
+.right-side {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 15px;
+
+}
+
+.right-side>* {
+    padding: 10px;
+
+}
+
+.header-link {
+    text-decoration: none;
+    color: rgb(67, 65, 65);
+    letter-spacing: 1px;
+
+}
+
+.header-link:hover {
+    color: rgb(103, 0, 0);
+}
+
+nav {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+
+.logo {
+    padding-top: 10px;
+    display: inline;
+    height: 10vh;
+
+
+}
+
+.nav-link {
+    padding-top: 25px;
+    text-decoration: none;
+    color: rgb(67, 65, 65);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+.nav-link:hover {
+    color: rgb(103, 0, 0);
+    text-decoration: underline;
+
+}
+
+/* Upper part of the page ending */
+
+/* main part-start */
+
+.aside-container {
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.left-aside {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: 40px;
+
+}
+
+.left-aside img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-aside {
+    flex-grow: 1.5;
+    margin-left: 20px;
+    flex-basis: 0;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+small {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.right-aside h2 {
+    font-family: 'Oswald', sans-serif;
+    margin: 25px 0;
+    font-size: 1.8rem;
+}
+
+.right-aside h3 {
+    font-size: 1.5rem;
+    font-weight: light;
+    margin-bottom: 30px;
+}
+
+#select {
+    width: 38vw;
+    padding: 15px;
+    border: 2px solid gray;
+    margin-bottom: 50px;
+}
+
+#select option {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#number {
+    width: 7vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.button1 {
+    width: 15vw;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button1:hover {
+    color: white;
+    background-color: darkgray;
+}
+
+
+
+/* footer-start */
+
+#contact {
+    padding-top: 30px;
+    background-color: #1f1f1f;
+}
+
+.upper-footer {
+    text-align: center;
+    border-bottom: 1px dashed #ffffff;
+    padding-bottom: 10px;
+}
+
+.lower-footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    padding-top: 10px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .left-side {
+        font-size: 10px;
+        margin-left: 2px;
+        letter-spacing: 0px;
+    }
+
+    .right-side {
+        font-size: 12px;
+        margin-right: 0px;
+        justify-content: flex-start;
+
+    }
+
+    .right-side>* {
+        padding: 5px;
+
+    }
+
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+
+
+    }
+
+    .logo {
+        width: 25vw;
+        padding-right: 5px;
+    }
+
+    .nav-link {
+        font-size: 10px;
+        letter-spacing: 0px;
+        padding-right: 7px;
+    }
+
+    .aside-container {
+        flex-direction: column;
+    }
+    .left-aside {
+        margin-left: 20px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    small {
+        font-size: 1.2rem;
+    }
+    #select {
+        width: 70vw;
+    }
+    #number {
+        width: 15vw;
+        border: 2px solid gray;
+    }
+    .button1 {
+        width: 30vw;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+
+    .left-side {
+        font-size: 15px;
+        margin-left: 10px;
+        letter-spacing: 0px;
+    }
+
+    .right-side {
+        font-size: 15px;
+        margin-right: 10px;
+        justify-content: flex-end;
+
+    }
+
+    .right-side>* {
+        padding: 5px;
+
+    }
+
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-around;
+
+
+    }
+
+    .logo {
+        width: 25vw;
+        padding-right: 5px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        letter-spacing: 0px;
+        padding-right: 7px;
+        margin-top: 4px;
+    }
+
+    small {
+        font-size: 1.3rem;
+    }
+
+    #select {
+        width: 50vw;
+    }
+    #number {
+        width: 9vw;
+        border: 2px solid gray;
+    }
+
+    .button1 {
+        width: 20vw;
+    }
+
+
+}

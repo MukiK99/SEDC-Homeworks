@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+
+<body>
+
+    <header id="home">
+        <div class="left-side">
+            <span>
+                <i class="fa-solid fa-truck fa-beat" style="color: #97a9c9;"></i>
+            </span>
+            <span>Free shipping above 2000 mkd</span>
+        </div>
+        <div class="right-side">
+            <a href="./register.html" class="header-link" target="_blank">My profile</a>
+            <a href="./shipping.html" class="header-link" target="_blank">Shipping</a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="color: #8392aa;"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #adb8cd;"></i>
+            </a>
+        </div>
+
+
+    </header>
+
+    <nav>
+        <a href="#home">
+            <img class="logo" src="./assets/logo1.png" alt="logo with gray letters on white background">
+        </a>
+
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#bestsellers">Best Selling products</a>
+        <a class="nav-link" href="./programs.html" target="_blank">Training programs</a>
+        <a class="nav-link">
+            <i class="fa-solid fa-magnifying-glass" style="color: #9aa4b7;"></i>
+        </a>
+
+    </nav>
+
+    <!-- Upper part of the page -->
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-size" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active first-image" data-bs-interval="2000">
+                    <img src="./assets/fitness_carousel.jfif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Best training programs on the market</h3>
+
+                    </div>
+                </div>
+                <div class="carousel-item second-image" data-bs-interval="2000">
+                    <img src="./assets/whey_carousel.webp" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Original supplements with a great price</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Carousel ending -->
+
+        <h1 id="bestsellers">Best Selling Products</h1>
+        <div class="upper-product-container">
+            <div class="upper-item">
+                <a href="./optimumWhey.html">
+                    <img src="./assets/optimum.png" alt="Gold standard whey-big package">
+                </a>
+                <p>Whey Gold Standard- 908 gr</p>
+
+            </div>
+
+            <div class="upper-item">
+                <a href="./animalWhey.html">
+                    <img src="./assets/animal-whey.png" alt="animal whey-big package">
+                </a>
+                <p>Animal Whey-2.27 kg</p>
+
+            </div>
+            <div class="upper-item">
+                <a href="./syntha6.html">
+                    <img src="./assets/syntha-6.png" alt="syntha6 whey-big package">
+                </a>
+                <p>Syntha-6 Premium Whey-2.26 kg</p>
+
+            </div>
+        </div>
+        <div class="lower-product-container">
+            <div class="lower-item">
+                <a href="./hypermass.html">
+                    <img src="./assets/hyper-mass.png" alt="Hyper mass gainer">
+                </a>
+                <p>Biotech Hyper Mass Gainer-3kg</p>
+            </div>
+            <div class="lower-item">
+                <a href="./onCreatine.html">
+                    <img src="./assets/optimum-creatine.png" alt="optimum nutrition creatine monohydrate">
+                </a>
+                <p>Optimum Nutrition Creatine Monohydrate-317 gr</p>
+            </div>
+            <div class="lower-item">
+                <a href="./preWorkout.html">
+                    <img src="./assets/pre-workout.jpg" alt="Optimum nutrition pre-workout">
+                </a>
+                <p>Optimum nutrition Gold-Pre Workout-330 gr</p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- footer -->
+
+    <footer id="contact">
+        <div class="upper-footer">
+            <img src="./assets/logo-dark.png" alt="logo with gray letters on white background"><br>
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i> &nbsp;&nbsp;
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+
+
+
+        </div>
+        <div class="lower-footer">
+            <p>Contact</p>
+            <p>Number 1: 073 000 111</p>
+            <p>Number 2: 073 222 111</p>
+            <p>Email: exclusivesupps@gmail.net</p>
+            <small>&copy; All rights reserved</small>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
