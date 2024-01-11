@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="gameContainer">
+        <h1>Hangman</h1>
+        <h2>Vanilla Javascript Hangman Game</h2>
+        <p>Use the alphabet below to guess the word or click hint to get a clue.</p>
+        <form action="" id="form">
+            <input type="button" value="a" class="button">
+            <input type="button" value="b" class="button">
+            <input type="button" value="c" class="button">
+            <input type="button" value="d" class="button">
+            <input type="button" value="e" class="button">
+            <input type="button" value="f" class="button">
+            <input type="button" value="g" class="button">
+            <input type="button" value="h" class="button">
+            <input type="button" value="i" class="button">
+            <input type="button" value="j" class="button">
+            <input type="button" value="k" class="button">
+            <input type="button" value="l" class="button">
+            <input type="button" value="m" class="button">
+            <input type="button" value="n" class="button">
+            <input type="button" value="o" class="button">
+            <input type="button" value="p" class="button">
+            <input type="button" value="q" class="button">
+            <input type="button" value="r" class="button">
+            <input type="button" value="s" class="button">
+            <input type="button" value="t" class="button">
+            <input type="button" value="u" class="button">
+            <input type="button" value="v" class="button">
+            <input type="button" value="w" class="button">
+            <input type="button" value="x" class="button">
+            <input type="button" value="y" class="button">
+            <input type="button" value="z" class="button">
+        </form>
+        <h3>The category is Movies</h3>
+        <div id="chosenWordContainer"></div>
+        <p id="remainingLives">You have 6 lives left</p>
+        <p id="resultParagraph"></p>
+
+        <div id="hintContainer"></div>
+        <input type="button" value="Hint" id="hintButton">
+        <input type="button" value="Play Again" id="playAgainButton">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

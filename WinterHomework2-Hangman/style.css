@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#gameContainer {
+    background-color: rgb(82, 220, 82);
+    color: white;
+    letter-spacing: 2px;
+    width: 65%;
+    height: 80vh;
+    margin-left: 20%;
+    margin-top: 10vh;
+    text-align: center;
+
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#form input {
+    margin: 15px 0px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 8px;
+    color: rgb(82, 220, 82);
+    text-transform: uppercase;
+
+}
+
+#form input:hover {
+    color: white;
+    background-color: rgb(82, 220, 82);
+    ;
+}
+
+h3 {
+    margin: 30px;
+}
+
+#remainingLives {
+    margin-top: 15px;
+}
+
+#resultParagraph {
+    margin-top: 20px;
+}
+
+#hintContainer {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    width: 250px;
+    height: 150px;
+    border: 1px dotted white;
+    margin-left: 35%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}
+
+#hintButton,
+#playAgainButton {
+    margin-top: 15px;
+    padding: 10px 0px;
+    width: 150px;
+    background-color: rgb(82, 220, 82);
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#hintButton:hover,
+#playAgainButton:hover {
+    color: rgb(82, 220, 82);
+    background-color: white;
+}
+
+#remainingHearts {
+    margin-top: 10px;
+}
+
+.heart-span {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    
+}
