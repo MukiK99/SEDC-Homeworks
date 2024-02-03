@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ #userHolder,#todoHolder {
+    width: 50%;
+    margin-left: 25%;
+    color: gray;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#userHolder h1,#todoHolder h1 {
+    font-size: 50px;
+    border-bottom: 2px dotted gray;
+}
+#userHolder p ,#todoHolder p{
+    font-size: 30px;
+    border-bottom: 1px dotted gray;
+}
