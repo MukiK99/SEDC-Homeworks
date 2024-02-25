@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Homework</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <h2 id="errorHeading"></h2>
+    <table id="carTable"></table>
+    <form id="form" action="">
+        <select name="selectType" id="selectType">
+            <option value="">Select Type</option>
+            <option value="SUV">SUV</option>
+            <option value="Sedan">Sedan</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="Convertible">Convertible</option>
+            <option value="Truck">Truck</option>
+            <option value="Coupe">Coupe</option>
+        </select>
+
+        <select name="selectBrand" id="selectBrand">
+            <option value="">Select Brand</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Toyota">Toyota</option>
+            <option value="BMW">BMW</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="Honda">Honda</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Ram">Ram</option>
+            <option value="Audi">Audi</option>
+            <option value="Kia">Kia</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Fiat">Fiat</option>
+        </select>
+
+        <input type="text" id="modelInput" placeholder="Car model" />
+        <input type="number" id="numberOfDoorsInput" placeholder="Number of Doors" />
+        <select name="color" id="colorInput">
+            <option value="">Choose car color</option>
+            <option value="Silver">Silver</option>
+            <option value="White">White</option>
+            <option value="Blue">Blue</option>
+            <option value="Black">Black</option>
+            <option value="Red">Red</option>
+            <option value="Gray">Gray</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Orange">Orange</option>
+            <option value="Purple">Purple</option>
+        </select>
+        <input type="checkbox" name="carYear" id="carYear" />
+        <label for="carYear" id="carYearLabel">
+         New Car
+        </label>
+        <input type="number" name="minHorsepower" placeholder="Min HP" id="minHorsepower" min="80" max="299" />
+        <input type="number" name="maxHorsepower" placeholder="Max HP" id="maxHorsepower" min=81 max="300" />
+
+        <button id="filterData" class="button">Filter Data</button>
+        <button id="resetData" class="button">Reset Data</button>
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

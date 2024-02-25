@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #005aa7, #fffde4);
+}
+
+#errorHeading {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#carTable {
+    margin-left: 20%;
+    margin-top: 2%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#carTable th {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 24px;
+}
+
+#carTable td {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    letter-spacing: 1px;
+    padding: 7px;
+}
+
+#form {
+    margin-left: 8%;
+}
+
+input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+select {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#carYear {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#carYearLabel {
+    font-size: 18px;
+}
+
+.button {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    font-size: 1.4rem;
+    border: 2px inset black;
+    border-radius: 5px;
+    /* margin-left: 13%; */
+    margin-top: 3%;
+
+}
+
+.button:hover {
+    background-color: #3498db;
+}
